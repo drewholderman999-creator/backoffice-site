@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BackOffice</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>BackOffice</h1>
+  <p>BackOffice is a private back-office tool for a one-person consulting practice: clients,
+  rates, proposals, time and invoices. It is not a public service and has no sign-ups.</p>
+
+  <h2>How it works</h2>
+  <ul>
+    <li>It runs only on its owner's own computer and listens only on that computer
+      (<code>127.0.0.1</code>). Nothing is hosted on the internet.</li>
+    <li>It keeps its records in a database on that computer.</li>
+    <li>It connects to its owner's Google Drive to store backup copies of that database, using
+      Google's <code>drive.file</code> permission: it can see and change only the files it
+      created itself, never anything else in the Drive.</li>
+    <li>It never sends email or messages and never shares data with anyone.</li>
+  </ul>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+</main>
+</body>
+</html>
